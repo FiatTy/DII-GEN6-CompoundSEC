@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LogManager {
-    private static LogManager instance;
+    private static LogManager instance; //Singleton Pattern ให้มีเพียงหนึ่งอินสแตนซ์เท่านั้
     private List<String> logs;
 
     private LogManager() {

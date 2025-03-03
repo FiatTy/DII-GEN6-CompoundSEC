@@ -2,7 +2,7 @@ import java.util.*;
 
 public class CardManager {
     private Map<String, AccessCard> cards = new HashMap<>();
-    private AuditLog auditLog = AuditLog.getInstance();
+    private AuditLog auditLog = AuditLog.getInstance(); // รายการบัตรทั้งหมด
 
     public AccessCard getCardById(String cardId) {
         for (AccessCard card : cards.values()) {

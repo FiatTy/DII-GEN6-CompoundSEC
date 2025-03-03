@@ -5,8 +5,8 @@ import java.util.UUID;
 public class AccessCard {
     private String userName;
     private String cardId;
-    private Set<String> accessibleFloors;
-    private Set<String> accessibleRooms;
+    private Set<String> accessibleFloors; // ชั้นที่เข้าถึงได้
+    private Set<String> accessibleRooms; // ห้องที่เข้าถึงได้
     private String startTime; // เวลาเริ่มต้นที่บัตรสามารถใช้งานได้
     private String endTime;   // เวลาสิ้นสุดที่บัตรสามารถใช้งานได้
 

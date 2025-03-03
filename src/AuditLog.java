@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AuditLog {
-    private static AuditLog instance;
-    private List<String> logs;
+    private static AuditLog instance; //Singleton Pattern ให้มีเพียงหนึ่งอินสแตนซ์เท่านั้น
+    private List<String> logs; //รายการบันทึกเหตุการณ์
 
     private AuditLog() {
         logs = new ArrayList<>();
